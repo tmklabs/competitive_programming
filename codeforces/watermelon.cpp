@@ -1,5 +1,5 @@
-// progblem
-
+// problem
+/*
 #include <iostream>
 using namespace std;
 
@@ -10,4 +10,18 @@ int main(){
         cout << "NO\n";
     else
         cout << "YES\n"; 
+}
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int w;
+    cin>>w;
+    if(w>0 && w<=100 && w%2==0 && w!=2)
+    cout<<"YES"<<endl;
+    else
+    cout<<"NO"<<endl;
+
 }
